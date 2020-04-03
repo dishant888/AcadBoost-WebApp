@@ -1,0 +1,25 @@
+{
+  "name": "AcadBoost",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "api": "nodemon ./API/index.js",
+    "website": "npm start --prefix website",
+    "admin": "npm start --prefix admin",
+    "start": "concurrently \"npm run api\" \"npm run website\" \"npm run admin\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dishant888/AcadBoost-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dishant888/AcadBoost-Web/issues"
+  },
+  "homepage": "https://github.com/dishant888/AcadBoost-Web#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

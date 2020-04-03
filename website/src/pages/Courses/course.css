@@ -1,0 +1,32 @@
+.card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    max-height: 450px;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.card-img-top {
+    height: 220px;
+}
+.card-btn {
+    position: absolute;
+    bottom: 20px;
+}
+.card-header {
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+    transition: 0.3s ease-in-out;
+}
+.card-link:hover {
+    text-decoration: none;
+    color: black;
+}

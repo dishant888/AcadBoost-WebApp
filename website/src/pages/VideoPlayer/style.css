@@ -1,0 +1,12 @@
+.back-btn {
+    cursor: pointer;
+    color: darkgrey;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.back-btn:hover {
+    color: black;
+    background-color: #eeeff0;
+}
